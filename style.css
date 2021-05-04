@@ -1,51 +1,48 @@
 html {
     font-family: serif;
-    font-size: 16px;
+    font-size: 2vw;
     color: #222;
     background-color: #fffeff;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 .container-flex {
     display: flex;
 }
 
-.body {
-    margin: 0;
-}
-
 .container {
     border-left: 1px solid black;
     border-right: 1px solid black;
-    padding: 3% 5%;
-    margin: 0 8%;
+    padding: 1rem 3rem;
+    margin: 0 2rem;
 }
 
 .header {
-    font-size: 1.25em;
+    font-size: 1.3rem;
 }
 
 .intro {
-    width: 80%;
+    /* width: 80%; */
     margin-right: 0;
     border-right: 0;
 }
 
 .image {
-    width: 21%;
+    max-width: 100%;
+    height: auto;
 }
 
-.image-middle {
-    width: 55%;
-}
-
-.image-big {
-    width: 80%;
-}
-
-.header .image {
-    width: 210px;
-}
-
-.intro .image {
-    width: 130px;
+.text-content {
+    padding: 1rem;
 }
