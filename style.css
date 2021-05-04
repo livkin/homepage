@@ -1,0 +1,51 @@
+html {
+    font-family: serif;
+    font-size: 16px;
+    color: #222;
+    background-color: #fffeff;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.body {
+    margin: 0;
+}
+
+.container {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 3% 5%;
+    margin: 0 8%;
+}
+
+.header {
+    font-size: 1.25em;
+}
+
+.intro {
+    width: 80%;
+    margin-right: 0;
+    border-right: 0;
+}
+
+.image {
+    width: 21%;
+}
+
+.image-middle {
+    width: 55%;
+}
+
+.image-big {
+    width: 80%;
+}
+
+.header .image {
+    width: 210px;
+}
+
+.intro .image {
+    width: 130px;
+}
