@@ -1,0 +1,22 @@
+html {
+    font-family: serif;
+    font-size: 14px;
+    color: #222;
+    background-color: #fffeff;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.body {
+    margin: 0;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.intro {
+    width: 70%;
+}
